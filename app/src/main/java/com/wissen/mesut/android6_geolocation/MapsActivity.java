@@ -50,7 +50,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 if (isaretci != null)
                     isaretci.remove();
                 isaretci = mMap.addMarker(new MarkerOptions().position(konum).title("Şu anda buradasınız"));
-                mMap.moveCamera(CameraUpdateFactory.newLatLng(konum));
+                mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(konum, 15));
             }
 
             @Override
@@ -98,7 +98,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         }
         // Add a marker in Sydney and move the camera
         LatLng sydney = new LatLng(40.5, 34.9);
-        mMap.addMarker(new MarkerOptions().position(sydney).title("Leblebiland"));
+        isaretci = mMap.addMarker(new MarkerOptions().position(sydney).title("Leblebiland"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
     }
 }
