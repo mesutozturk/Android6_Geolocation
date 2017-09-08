@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Android6_Geolocation.iml" filepath="$PROJECT_DIR$/Android6_Geolocation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/J6_6Geolocation.iml" filepath="$PROJECT_DIR$/J6_6Geolocation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
